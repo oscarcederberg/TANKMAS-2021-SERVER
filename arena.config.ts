@@ -14,7 +14,6 @@ export default Arena({
         /**
          * Define your room handlers:
          */
-        gameServer.define('hallway', GameRoom);
         gameServer.define('outside', GameRoom);
         gameServer.define('path_left', GameRoom);
         gameServer.define('path_center', GameRoom);
