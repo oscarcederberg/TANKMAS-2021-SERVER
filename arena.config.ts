@@ -14,12 +14,12 @@ export default Arena({
         /**
          * Define your room handlers:
          */
-        gameServer.define('hallway', GameRoom);
-        gameServer.define('entrance', GameRoom);
         gameServer.define('outside', GameRoom);
-        gameServer.define('arcade', GameRoom);
-        gameServer.define('music', GameRoom);
-        gameServer.define('movie', GameRoom);
+        gameServer.define('path_left', GameRoom);
+        gameServer.define('path_center', GameRoom);
+        gameServer.define('path_right', GameRoom);
+        gameServer.define('village', GameRoom);
+        gameServer.define('picos-shop', GameRoom);
 
     },
 
