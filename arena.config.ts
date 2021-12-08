@@ -20,6 +20,7 @@ export default Arena({
         gameServer.define('path_right', GameRoom);
         gameServer.define('village', GameRoom);
         gameServer.define('picos-shop', GameRoom);
+        gameServer.define('cafe', GameRoom);
 
     },
 
