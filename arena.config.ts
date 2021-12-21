@@ -22,6 +22,8 @@ export default Arena({
         gameServer.define('picos-shop', GameRoom);
         gameServer.define('cafe', GameRoom);
         gameServer.define('post_office', GameRoom);
+        gameServer.define('theater_lobby', GameRoom);
+        gameServer.define('theater_screen', GameRoom);
 
     },
 
