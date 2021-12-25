@@ -24,6 +24,7 @@ export default Arena({
         gameServer.define('post_office', GameRoom);
         gameServer.define('theater_lobby', GameRoom);
         gameServer.define('theater_screen', GameRoom);
+        gameServer.define('town_hall, GameRoom');
 
     },
 
